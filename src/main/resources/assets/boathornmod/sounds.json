@@ -1,0 +1,26 @@
+{
+  "boat_horn_sound1": {
+    "subtitle": "sounds.boathornmod.boat_horn_sound1",
+    "sounds": [
+      "boathornmod:boat_horn_sound1"
+    ]
+  },
+  "boat_horn_sound2": {
+    "subtitle": "sounds.boathornmod.boat_horn_sound2",
+    "sounds": [
+      "boathornmod:boat_horn_sound2"
+    ]
+  },
+  "boat_horn_sound3": {
+    "subtitle": "sounds.boathornmod.boat_horn_sound3",
+    "sounds": [
+      "boathornmod:boat_horn_sound3"
+    ]
+  },
+  "boat_horn_sound4": {
+    "subtitle": "sounds.boathornmod.boat_horn_sound4",
+    "sounds": [
+      "boathornmod:boat_horn_sound4"
+    ]
+  }
+}

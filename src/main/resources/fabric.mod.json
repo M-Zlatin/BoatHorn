@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "boathornmod",
+	"version": "1.0.2",
+	"name": "Boat Horn Mod",
+	"description": "Custom Minecraft Mod for Boat Horn",
+	"authors": ["Badkiddy / Ovili!"],
+	"info": "https://www.patreon.com/Ovili/shop",
+	"license": "CC0-1.0",
+	"icon": "assets/boathornmod/icon.png",
+	"contact": {
+		"homepage": "https://www.patreon.com/Ovili/shop",
+		"sources": "https://www.patreon.com/Ovili/shop",
+		"issues": "https://www.patreon.com/Ovili/shop"
+	},
+	"environment": "*",
+
+	"entrypoints": {
+		"main": [
+			"net.boathornmod.boathornmod.BoatHornMod"
+		],
+		"client": [
+			"net.boathornmod.boathornmod.BHModClient"
+		],
+		"modmenu": [
+			"net.boathornmod.boathornmod.config.BHMenuIntegration"
+		]
+	},
+
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*",
+		"modmenu": "*",
+		"cloth-config2": "*"
+	}
+}
